@@ -1,0 +1,301 @@
+/*body*/
+body{
+    font-family: Arial, "Baskerville Old Face";
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/*global*/
+.button1
+{
+    height: 38px;
+    width: 100px;
+    background: #e8491d;
+    border: 0px;
+    padding: 0 20px 0 20px;
+    color: white;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/*header*/
+header{
+    background-color: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+header li
+{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav
+{
+    float: right;
+    margin-top: 10px ;
+}
+header .highlight{
+    color: #e8491d;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #e8491d;
+    font-weight: bold;
+}
+/*showcase*/
+#showcase
+{
+    min-height: 500px;
+    background: url("http://www.timelinecoverbanner.com/facebook-covers/2012/12/a-cup-of-coffee.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+#showcase h1
+{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+#showcase p
+{
+    font-size: 20px;
+}
+/*newsLetter*/
+.newsletter h1
+{
+    float: left;
+}
+.newsletter form
+{
+    float: right;
+    margin-top: 15px;
+}
+.newsletter input[type=email]
+{
+    padding: 4px;
+    height: 25px;
+    width: 200px;
+
+}
+.letter{
+    padding: 15px;
+    color: white;
+    background: grey;
+}
+#servisemail{
+    padding: 4px;
+    height: 39px;
+    width: 200px;
+
+}
+#food{
+    background-image: url("C:/Users/Indresh/Desktop/say/1.jpeg");
+}
+/*footer boxes*/
+#boxes
+{
+    margin-top: 20px;
+}
+#boxes .box
+{
+    text-align: center ;
+    float: left;
+    width: 30%;
+    padding: 10px;
+
+}
+
+#boxes .box img
+{
+    height:120px;
+    width: 250px;
+    border: 3px solid black;
+}
+/*footer*/
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #e8491d;
+    text-align: center;
+}
+/*-----------------------------*/
+
+
+.newsletter
+{
+    padding: 15px;
+    color: white;
+    background: #35424a;
+}
+#signin
+{
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    height: 56%;
+    width: 42%;
+    top: 138px;
+    left: 365px;
+    padding: 30px;
+    border-radius: 10px;
+    line-height:3.5px ;
+}
+#subbut{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    height: 38px;
+    width: 100px;
+    background: #e8491d;
+    border: 0px;
+    padding: 0 20px 0 20px;
+    color: white;
+
+}
+section .sty
+{
+    color: #e8491d;
+}
+#signin input
+{
+    padding: 5px;
+    height: 28px;
+    width: 200px;
+    //border: 3px solid black;
+}
+#vis,#vis1,#vis2,#vis3,#vis4,#vis5,#vis6,#vis7
+{
+    visibility: hidden;
+    color: white;
+    font-size: 15px;
+    text-decoration: solid;
+}
+#chk
+{
+    padding: 0;
+    height: 2px;
+    width: 5px;
+
+}
+#login input
+{
+    padding: 5px;
+    height: 35px;
+    width: 215px;
+// border: 3px solid black;
+}
+
+#chk
+{
+    padding: 0;
+    height: 2px;
+    width: 5px;
+
+}
+#login td
+{
+    color: white;
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 2.5;
+    font-style: italic;
+}
+
+section #login h2
+{
+    color: darkorange;
+    font-family: "Curlz MT";
+    font-size:40px;
+    padding: 0 5px 0 5px;
+}
+#signin td
+{
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+}
+#form1 button
+{
+    position: absolute;
+    top: 637px;
+    left: 595px;
+}
+
+#new
+{
+    padding: 15px;
+    color: white;
+    background: #35424a;
+}
+#new h1
+{
+    float: left;
+}
+
+
+
+
+#chkcontainer
+{
+    background-color: rgba(0,0,0,.5);
+    padding: 20px;
+    width: 60%;
+    position: relative;
+    left:220px;
+
+}
+#chkcontainer td
+{
+    border: 2px solid black;
+}
+
+section #login{
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    height: 40%;
+    width: 35%;
+    top: 215px;
+    left: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+section .sty
+{
+    color: #e8491d;
+}
